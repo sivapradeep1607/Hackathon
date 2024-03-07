@@ -1,0 +1,24 @@
+16:01:01.588 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:01:01.598 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:01:01.678 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:01.680 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:01.711 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:01:01.713 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:01:01.715 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:01:01.716 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:01:01.719 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:01:01.720 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:01:01.721 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+16:01:01.722 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:01:01.725 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:01:01.770 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:01:01.771 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:01:01.804 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:01:01.807 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:01:01.809 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:01:01.809 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:01:01.812 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:01:01.812 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:01:01.813 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+16:01:01.814 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:01:01.816 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'

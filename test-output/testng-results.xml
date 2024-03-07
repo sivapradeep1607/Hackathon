@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="24" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T15:04:33 IST" name="Suite" finished-at="2024-03-07T15:07:42 IST" duration-ms="188780">
+    <groups>
+      <group name="regression">
+        <method signature="case2.test()[pri:1, instance:testcase.case2@7526515b]" name="test" class="testcase.case2"/>
+        <method signature="case2.test1()[pri:2, instance:testcase.case2@7526515b]" name="test1" class="testcase.case2"/>
+        <method signature="case2.test2()[pri:3, instance:testcase.case2@7526515b]" name="test2" class="testcase.case2"/>
+        <method signature="case2.test3()[pri:4, instance:testcase.case2@7526515b]" name="test3" class="testcase.case2"/>
+        <method signature="case2.test4()[pri:5, instance:testcase.case2@7526515b]" name="test4" class="testcase.case2"/>
+        <method signature="case2.test5()[pri:6, instance:testcase.case2@7526515b]" name="test5" class="testcase.case2"/>
+        <method signature="case2.test6()[pri:7, instance:testcase.case2@7526515b]" name="test6" class="testcase.case2"/>
+        <method signature="case2.test7()[pri:8, instance:testcase.case2@7526515b]" name="test7" class="testcase.case2"/>
+        <method signature="case2.test8()[pri:9, instance:testcase.case2@7526515b]" name="test8" class="testcase.case2"/>
+        <method signature="case2.test9()[pri:10, instance:testcase.case2@7526515b]" name="test9" class="testcase.case2"/>
+        <method signature="case3.test1()[pri:1, instance:testcase.case3@1ed4ae0f]" name="test1" class="testcase.case3"/>
+        <method signature="case3.test2()[pri:2, instance:testcase.case3@1ed4ae0f]" name="test2" class="testcase.case3"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="case1.test()[pri:1, instance:testcase.case1@2ddc9a9f]" name="test" class="testcase.case1"/>
+        <method signature="case1.test1()[pri:2, instance:testcase.case1@2ddc9a9f]" name="test1" class="testcase.case1"/>
+        <method signature="case1.test2()[pri:3, instance:testcase.case1@2ddc9a9f]" name="test2" class="testcase.case1"/>
+        <method signature="case1.test3()[pri:4, instance:testcase.case1@2ddc9a9f]" name="test3" class="testcase.case1"/>
+        <method signature="case1.test4()[pri:5, instance:testcase.case1@2ddc9a9f]" name="test4" class="testcase.case1"/>
+        <method signature="case1.test5()[pri:6, instance:testcase.case1@2ddc9a9f]" name="test5" class="testcase.case1"/>
+        <method signature="case1.test6()[pri:7, instance:testcase.case1@2ddc9a9f]" name="test6" class="testcase.case1"/>
+        <method signature="case1.test7()[pri:8, instance:testcase.case1@2ddc9a9f]" name="test7" class="testcase.case1"/>
+        <method signature="case2.test()[pri:1, instance:testcase.case2@7526515b]" name="test" class="testcase.case2"/>
+        <method signature="case2.test1()[pri:2, instance:testcase.case2@7526515b]" name="test1" class="testcase.case2"/>
+        <method signature="case2.test2()[pri:3, instance:testcase.case2@7526515b]" name="test2" class="testcase.case2"/>
+        <method signature="case2.test3()[pri:4, instance:testcase.case2@7526515b]" name="test3" class="testcase.case2"/>
+        <method signature="case2.test4()[pri:5, instance:testcase.case2@7526515b]" name="test4" class="testcase.case2"/>
+        <method signature="case2.test5()[pri:6, instance:testcase.case2@7526515b]" name="test5" class="testcase.case2"/>
+        <method signature="case2.test6()[pri:7, instance:testcase.case2@7526515b]" name="test6" class="testcase.case2"/>
+        <method signature="case2.test7()[pri:8, instance:testcase.case2@7526515b]" name="test7" class="testcase.case2"/>
+        <method signature="case2.test8()[pri:9, instance:testcase.case2@7526515b]" name="test8" class="testcase.case2"/>
+        <method signature="case2.test9()[pri:10, instance:testcase.case2@7526515b]" name="test9" class="testcase.case2"/>
+        <method signature="case3.test1()[pri:1, instance:testcase.case3@1ed4ae0f]" name="test1" class="testcase.case3"/>
+        <method signature="case3.test2()[pri:2, instance:testcase.case3@1ed4ae0f]" name="test2" class="testcase.case3"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="case3.test1()[pri:1, instance:testcase.case3@1ed4ae0f]" name="test1" class="testcase.case3"/>
+        <method signature="case3.test2()[pri:2, instance:testcase.case3@1ed4ae0f]" name="test2" class="testcase.case3"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-07T15:04:33 IST" name="Test" finished-at="2024-03-07T15:07:42 IST" duration-ms="188780">
+      <class name="testcase.case1">
+        <test-method is-config="true" signature="openbrowser(java.lang.String,java.lang.String)[pri:0, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:04:34 IST" name="openbrowser" finished-at="2024-03-07T15:04:44 IST" duration-ms="9937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="test()[pri:1, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:04:44 IST" name="test" finished-at="2024-03-07T15:05:09 IST" duration-ms="25080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1()[pri:2, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:09 IST" name="test1" finished-at="2024-03-07T15:05:14 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:3, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:14 IST" name="test2" finished-at="2024-03-07T15:05:23 IST" duration-ms="8652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:4, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:23 IST" name="test3" finished-at="2024-03-07T15:05:30 IST" duration-ms="7525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:5, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:30 IST" name="test4" finished-at="2024-03-07T15:05:31 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:6, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:31 IST" name="test5" finished-at="2024-03-07T15:05:32 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:7, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:05:33 IST" name="test6" finished-at="2024-03-07T15:06:41 IST" duration-ms="68424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:8, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:06:41 IST" name="test7" finished-at="2024-03-07T15:07:06 IST" duration-ms="24368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testcase.case1@2ddc9a9f]" started-at="2024-03-07T15:07:41 IST" name="closebrowser" finished-at="2024-03-07T15:07:42 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcase.case1 -->
+      <class name="testcase.case2">
+        <test-method signature="test()[pri:1, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:06 IST" name="test" finished-at="2024-03-07T15:07:18 IST" duration-ms="12261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1()[pri:2, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:18 IST" name="test1" finished-at="2024-03-07T15:07:27 IST" duration-ms="9035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:3, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:27 IST" name="test2" finished-at="2024-03-07T15:07:28 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:4, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:28 IST" name="test3" finished-at="2024-03-07T15:07:28 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:5, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:29 IST" name="test4" finished-at="2024-03-07T15:07:29 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:6, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:29 IST" name="test5" finished-at="2024-03-07T15:07:29 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:7, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:30 IST" name="test6" finished-at="2024-03-07T15:07:30 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:8, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:31 IST" name="test7" finished-at="2024-03-07T15:07:31 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:9, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:31 IST" name="test8" finished-at="2024-03-07T15:07:32 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="test9()[pri:10, instance:testcase.case2@7526515b]" started-at="2024-03-07T15:07:32 IST" name="test9" finished-at="2024-03-07T15:07:37 IST" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+      </class> <!-- testcase.case2 -->
+      <class name="testcase.case3">
+        <test-method signature="test1()[pri:1, instance:testcase.case3@1ed4ae0f]" started-at="2024-03-07T15:07:37 IST" name="test1" finished-at="2024-03-07T15:07:39 IST" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testcase.case3@1ed4ae0f]" started-at="2024-03-07T15:07:39 IST" name="test2" finished-at="2024-03-07T15:07:41 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testcase.case3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.ExtentReportsManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcase.case2">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="test8"/>
+        </methods>
+      </class> <!-- testcase.case2 -->
+      <class name="testcase.case3">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="test1"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testcase.case3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
